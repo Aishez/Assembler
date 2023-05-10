@@ -1,0 +1,17 @@
+00000000 0000000A var1: data 10
+00000001 0000000F var2: data 15
+00000002 00000014 var3: data 20
+    
+00000003 00000000 ldc var1        ; load value of var1 into the accumulator
+00000004 00000004 ldnl 0          ; load non local
+    
+00000005 00000100 ldc var2        
+00000006 00000004 ldnl 0
+    
+00000007 00000006 add             ; add both values
+00000008 00000200 ldc var3
+00000009 00000004 ldnl 0
+0000000A 00000006 add
+0000000B 00000003 stl 0           ; store local
+0000000C 00000012 HALT
+    

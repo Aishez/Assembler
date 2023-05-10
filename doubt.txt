@@ -1,0 +1,10 @@
+Error : how to decide error tag
+dexocthextoint ?
+what is the diffrence between program_counter and line_number variable
+value to op code ?
+
+
+Pass 1 :
+    Generate Machine op code table
+    symbol table
+    literal table 
